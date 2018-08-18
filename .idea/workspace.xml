@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d1d815-39a6-4036-a99c-a0d4e19b3f4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/dtd/FileDTD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/dtd/ResultDTD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/AuthUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/UserFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/form/UserForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/vo/UserVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -221,15 +212,6 @@
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -321,12 +303,12 @@
       <updated>1534528053340</updated>
       <workItem from="1534528058181" duration="316000" />
       <workItem from="1534528427486" duration="630000" />
-      <workItem from="1534586982485" duration="1170000" />
+      <workItem from="1534586982485" duration="1841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2116000" />
+    <option name="totallyTimeSpent" value="2787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
