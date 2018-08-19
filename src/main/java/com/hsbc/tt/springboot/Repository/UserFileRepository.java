@@ -1,5 +1,6 @@
 package com.hsbc.tt.springboot.Repository;
 
+import com.hsbc.tt.springboot.pojo.entity.User;
 import com.hsbc.tt.springboot.pojo.entity.UserFile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -11,4 +12,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserFileRepository extends JpaRepository<UserFile,Long> {
+
+    User findByUsername(String username);
+
 }

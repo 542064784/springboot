@@ -17,3 +17,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
 
+file:
+  upload-dir: ./uploads
+
