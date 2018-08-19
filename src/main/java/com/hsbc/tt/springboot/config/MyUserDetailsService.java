@@ -1,8 +1,8 @@
 package com.hsbc.tt.springboot.config;
 
-import com.hsbc.tt.springboot.Repository.UserRepository;
 import com.hsbc.tt.springboot.pojo.entity.AuthUser;
 import com.hsbc.tt.springboot.pojo.entity.User;
+import com.hsbc.tt.springboot.service.api.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,17 +18,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class MyUserDetailsService implements UserDetailsService {
 
-    private UserRepository userRepository;
+    private UserService userService;
 
     @Autowired
-    public MyUserDetailsService(UserRepository userRepository){
-        this.userRepository = userRepository;
+    public MyUserDetailsService(UserService userService){
+        this.userService = userService;
     }
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         AuthUser authUser = new AuthUser();
-        User user = userRepository.findByUsername(username);
+        User user = userService.findByUsername(username);
         BeanUtils.copyProperties(user,authUser);
         return authUser;
     }

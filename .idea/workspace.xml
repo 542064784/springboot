@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d1d815-39a6-4036-a99c-a0d4e19b3f4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/MyUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/SystemProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/UserFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/UserFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/AuthUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/AuthUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/RoleRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,12 +38,24 @@
       <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/MyUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+            <state relative-caret-position="88">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#675#676#0" expanded="true" />
                 <element signature="e#726#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/RoleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthUser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/AuthUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -103,15 +107,6 @@
                 <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#517#518#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUploadService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/service/api/FileUploadService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -158,8 +153,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -188,10 +183,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/SystemProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/UserFileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/MyUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/AuthUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/RoleRepository.java" />
       </list>
     </option>
   </component>
@@ -217,7 +213,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="523" />
     <option name="width" value="785" />
     <option name="height" value="728" />
@@ -459,12 +455,12 @@
       <workItem from="1534528058181" duration="316000" />
       <workItem from="1534528427486" duration="630000" />
       <workItem from="1534586982485" duration="4411000" />
-      <workItem from="1534644185934" duration="1959000" />
+      <workItem from="1534644185934" duration="2233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7316000" />
+    <option name="totallyTimeSpent" value="7590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -736,18 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/MyUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/pojo/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -788,6 +772,28 @@
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#790#791#0" expanded="true" />
             <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/config/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hsbc/tt/springboot/Repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
