@@ -1,4 +1,4 @@
-package com.hsbc.tt.springboot.Repository;
+package com.hsbc.tt.springboot.repository;
 
 import com.hsbc.tt.springboot.pojo.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;

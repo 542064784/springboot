@@ -1,6 +1,6 @@
 package com.hsbc.tt.springboot.service.impl;
 
-import com.hsbc.tt.springboot.Repository.UserRepository;
+import com.hsbc.tt.springboot.repository.UserRepository;
 import com.hsbc.tt.springboot.pojo.entity.User;
 import com.hsbc.tt.springboot.service.api.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,6 +42,7 @@ public class UserServiceImpl implements UserService {
      * @param username
      * @return
      */
+    @Override
     public User findByUsername(String username){
         User user = userRepository.findByUsername(username);
         return user;
