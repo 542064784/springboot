@@ -27,11 +27,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
+    /**
+     * Determine if you have logged in
+     *
+     * @param auth Landing user
+     * @throws Exception
+     */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(myUserDetailsServiceImpl);
     }
 
+    /**
+     * security Interception rule
+     *
+     * @param http request url
+     * @throws Exception
+     */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
