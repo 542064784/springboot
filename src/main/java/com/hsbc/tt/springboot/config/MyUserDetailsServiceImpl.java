@@ -12,19 +12,27 @@ import org.springframework.stereotype.Service;
 
 /**
  *  user login and Certification
+ *
  * @author Damon Chen
  * @date 2018/8/19
  */
 @Service
-public class MyUserDetailsService implements UserDetailsService {
+public class MyUserDetailsServiceImpl implements UserDetailsService {
 
     private UserService userService;
 
     @Autowired
-    public MyUserDetailsService(UserService userService){
+    public MyUserDetailsServiceImpl(UserService userService){
         this.userService = userService;
     }
 
+    /**
+     * get user by username
+     *
+     * @param username username
+     * @return user
+     * @throws UsernameNotFoundException
+     */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         AuthUser authUser = new AuthUser();
