@@ -9,12 +9,13 @@ import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 
 /**
- *  user service impl
+ * user service impl
+ *
  * @author  Damon Chen
- * @date 2018/8/19
+ * @date 2018/08/19
  */
 @Service
-@Transactional
+@Transactional(rollbackOn = Exception.class)
 public class UserServiceImpl implements UserService {
 
     private UserRepository userRepository;
@@ -25,7 +26,8 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
-     *  add new user
+     * add new user
+     *
      * @param user  new user
      */
     @Override
@@ -38,7 +40,8 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
-     *  find user by username
+     * find user by username
+     *
      * @param username
      * @return
      */

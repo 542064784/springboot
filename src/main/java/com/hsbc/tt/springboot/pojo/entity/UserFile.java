@@ -5,9 +5,10 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 /**
- *  user file bean
+ * user file bean
+ *
  * @author Damon Chen
- * @date 2018/8/19
+ * @date 2018/08/19
  */
 @Entity
 @Table(name = "userFile",schema = "springboot")

@@ -7,14 +7,17 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 /**
- *  user controller
+ * user controller
+ *
  * @author Damon Chen
- * @date 2018/8/19
+ * @date 2018/08/19
  */
 @RestController
 @Slf4j
+@RequestMapping("/user")
 public class UserController {
 
     private UserService userService;
@@ -26,8 +29,9 @@ public class UserController {
 
     /**
      *  add new user
-     * @param user
-     * @return
+     *
+     * @param user new user
+     * @return result
      */
     @PostMapping("/addUser")
     public ResultDTO addUser(@RequestBody User user){
@@ -38,7 +42,7 @@ public class UserController {
             resultDTD.setMessage("注册用户成功。");
         }catch (Exception e){
             resultDTD.setStatus("500");
-            resultDTD.setMessage(e.getMessage());
+            resultDTD.setMessage("");
         }
         return resultDTD;
     }

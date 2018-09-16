@@ -5,11 +5,12 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 /**
- *  file upload service impl
+ * file upload service impl
+ *
  * @author Damon Chen
- * @date 2018/8/19
+ * @date 2018/08/19
  */
 @Service
-@Transactional
+@Transactional(rollbackOn=Exception.class)
 public class FileUploadServiceImpl implements FileUploadService {
 }

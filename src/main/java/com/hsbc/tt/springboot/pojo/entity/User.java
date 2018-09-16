@@ -6,9 +6,10 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 /**
- *  user bean
+ * user bean
+ *
  * @author Damon Chen
- * @date 2018/8/19
+ * @date 2018/08/19
  */
 @Entity
 @Table(name = "user",schema = "springboot")

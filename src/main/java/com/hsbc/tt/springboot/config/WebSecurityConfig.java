@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * security Interception rule
  *
  * @author Damon Chen
- * @date 2018/${MOUTH}/02
+ * @date 2018/09/02
  */
 @Slf4j
 @Configuration

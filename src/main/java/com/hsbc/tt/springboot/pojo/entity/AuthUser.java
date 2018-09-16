@@ -8,9 +8,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 /**
- *   get authorities
+ * get authorities
+ *
  * @author Damon Chen
- * @date 2018/8/19
+ * @date 2018/08/19
  */
 public class AuthUser extends User implements UserDetails {
 
