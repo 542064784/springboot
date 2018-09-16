@@ -5,10 +5,8 @@ import com.hsbc.tt.springboot.pojo.entity.User;
 import com.hsbc.tt.springboot.service.api.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 /**
  * user controller
  *
@@ -25,6 +23,22 @@ public class UserController {
     @Autowired
     public UserController(UserService userService){
         this.userService = userService;
+    }
+
+    /**
+     * Check if the entered username is available
+     *
+     * @param username entered username
+     * @return it's usable or not
+     */
+    @GetMapping("/checkUsername")
+    public boolean checkUsername(String username){
+        User user = userService.findByUsername(username);
+        if (user == null){
+            return false;
+        }else {
+            return true;
+        }
     }
 
     /**
